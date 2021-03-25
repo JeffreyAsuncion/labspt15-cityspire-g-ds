@@ -19,6 +19,7 @@ database = databases.Database(database_url)
 router = APIRouter()
 
 
+
 @router.get("/info")
 async def get_url():
     """Verify we can connect to the database,
